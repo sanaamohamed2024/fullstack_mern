@@ -1,0 +1,26 @@
+body{
+    height: 500px;
+    background-image: linear-gradient(to bottom,rgba(96, 207, 96, 0.833) ,transparent );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+span{
+   
+    margin: 50px;
+    font: small-caps bold 20px sans-serif;
+}
+hr{background-color: #000;}
+.e{
+    text-transform: lowercase;
+   height: 10px;
+   font: bold 32px/5px cursive;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-right: 400px;
+    margin-left: 0px;
+}
+.r{ height: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    font: bolder 48px/10px cursive;
+}

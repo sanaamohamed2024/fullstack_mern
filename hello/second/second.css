@@ -1,0 +1,26 @@
+main{display: inline-flex;
+padding-left: 50px;text-transform: capitalize;}
+header{background-color: rgba(2, 2, 2, 0.5);color: aliceblue;text-transform: capitalize;
+ 
+padding-top: 20px;}
+.v{padding-left: 100px;}
+
+.r{background-color: rgb(169, 165, 165);
+word-spacing: 40px;
+padding-left: 100px;
+}
+.i{margin-top:210px ;}
+div{width: 500px;
+    
+}
+aside{width: 300px;
+     margin-left:50px ;
+}
+nav{width: 300px;
+    margin-left: 100px;
+}
+footer{padding-left:50px ;
+background-color:rgb(169, 165, 165); text-transform: capitalize;}
+.e,#e{color: red;}
+.new{color: black;}
+body{margin: 0 0 0 0;}

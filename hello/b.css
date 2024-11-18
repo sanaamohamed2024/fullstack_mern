@@ -1,0 +1,57 @@
+body{background-color: white;
+position: relative;
+}
+div.y{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    animation: test 5s ease-out 0s infinite alternate-reverse running;
+}
+@keyframes test {
+    
+    0%{background-color: tomato;
+translate: 0 0;
+rotate: 0 0;
+scale: 0;
+border-radius: 50px;}
+25%{background-color: rgb(255, 240, 71);
+scale: 2;
+translate: 0 600px ;
+rotate: 90deg;
+border-radius: 25px;
+}
+50%{background-color: rgb(24, 192, 19);
+ scale: 4;
+translate: 1200px 600px;
+rotate:  180deg;
+border-radius: 0px;
+}
+75%{background-color: rgb(77, 71, 255);
+   scale:2;
+translate: 1200px 0;
+rotate: 270deg;
+border-radius: 25px;
+}
+100%{background-color:tomato;
+ scale: 0;
+translate: 0 0;
+rotate: 360deg;
+border-radius: 50px;
+}
+}
+div.y:hover{
+animation:test 5s ease-out 0s infinite alternate-reverse paused;
+cursor: grab ;}
+.x{
+   
+    padding: 3px;
+    border-style: solid;
+    border-color: rgba(10, 0, 10, 0.721);
+    border-radius: 75px;
+    transition: border-color 8s ;
+width: 150px;
+height: 150px;
+ position:absolute;
+top: 300px;
+left: 650px;
+}

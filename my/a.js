@@ -1,0 +1,9 @@
+localStorage.name='ali';
+localStorage.age=JSON.stringify(25);
+localStorage.setItem('skills',JSON.stringify([1,2,3]));
+localStorage.user=JSON.stringify({
+   name:'SANAA',
+   age:22,
+})
+localStorage.removeItem('user');
+localStorage.clear();

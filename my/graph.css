@@ -1,0 +1,20 @@
+.border{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+top: 100px;
+  left: 500px; 
+  background-color: rgba(196, 201, 201, 0.267); 
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px 0px;
+}
+.face{
+    background-color: rgba(244, 139, 10, 0.467);
+    border-radius: 35%;
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    transform: skew(-4deg);
+}

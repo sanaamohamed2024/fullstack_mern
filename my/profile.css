@@ -1,0 +1,86 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{background-color: rgba(50, 5, 87, 0.811);
+width: 1200px;
+position: fixed;
+z-index: 10;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color:rgb(245, 241, 246);
+    text-transform: capitalize;
+    font-family:  fantasy;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(245, 241, 246);
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+nav a:hover{
+    color: #c7b1d0b1;
+}
+section{padding: 100px 200px;
+
+width: 1200px;
+min-height: 100vh;
+display: flexbox;
+align-items: center;
+background-image:linear-gradient(rgb(31, 5, 124) 3%,transparent) ;
+background-position: center;
+}
+.main h2{
+    color: aliceblue;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{color: rgb(49, 6, 90);
+font-size: 3em;
+font-weight: 600;
+display: inline-block;
+margin-top: 10px;}
+.main h3{
+    color:aliceblue ;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top:10px ;
+    margin-bottom: 30px;
+}
+.main-botton{
+color: aliceblue;
+background-color:rgba(50, 5, 87, 0.811);
+text-decoration: none;
+font-size: 1.3em;
+font-weight: 600;
+display: inline-block;
+padding: .9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+ transition: 1s ease;   
+}
+.main-botton:hover{
+    background-color:rgba(44, 3, 78, 0.614) ;
+    transform: scale(1.1);
+
+}
+.social{
+    padding-left:30px;
+}
+.social a{
+    color: aliceblue;
+    font-size: 1.7em;
+    padding-right: 40px;
+}
