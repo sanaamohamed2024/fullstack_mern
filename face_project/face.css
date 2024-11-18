@@ -1,0 +1,72 @@
+body {
+    background-color:rgba(133, 134, 137, 0.099);
+   
+}
+div {
+display:inline-block;
+
+}
+h1 {
+color: #0066ff;
+display: block;
+font-family: 'Roboto', sans-serif;
+font-weight: 700; /* Bold weight */
+font-size: 60px;
+padding:190px 50px 0px 300px;
+margin: 0px;
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 180;
+    font-size: 28px;
+    padding:0px 70px 0px 300px ;
+    margin: 0px;
+    display: block;
+}
+form{
+    background-color: white;
+    display: block;
+    width: 400px;
+    height: 350px;
+    position:absolute ;
+    bottom: 250px;
+    border: 3px;
+    border-radius: 3px;
+    
+    
+}
+input{
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border-color: rgba(133, 134, 137, 0.2);
+}
+.link {
+    padding-left: 130px;
+     padding-top: 20px;
+}
+.line {
+    width: 360px;
+}
+.log {
+    width: 82%;
+    background-color: #0066ff;
+    border:0px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.create {
+    width: 50%;
+    background-color: #0bac26;
+    border:0px;
+    border-radius: 4px; 
+    margin-left: 100px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}

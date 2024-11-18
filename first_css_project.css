@@ -1,0 +1,33 @@
+body {
+color: blueviolet;
+font-size: 40px;
+background-image: url(fig2.png);
+background-repeat: repeat-x;
+background-attachment: fixed;
+background-size: cover;
+
+}
+.my{
+color:aquamarine;
+font-size: 40px;
+background-color: rgba(255, 6, 151, 0.2);
+padding: 20px 20px 20px 20px;
+margin: -20px -20px -20px -20px;
+border: 10px  rebeccapurple solid;
+outline: 20px blueviolet solid;
+
+}
+#my {
+color:rebeccapurple;
+font-size: 40px;
+background-image: url(fig1.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+/* 
+ */
+ div {
+ display: block;
+ visibility: hidden;
+ }
